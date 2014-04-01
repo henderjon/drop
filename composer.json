@@ -15,7 +15,7 @@
 		"irc" : "irc://irc.freenode.org/henderjon"
 	},
 	"require": {
-		"php": ">=5.4.0"
+		"php": ">=5.3.0"
 	},
 	"autoload": {
 		"files": ["src/drop.php"]
