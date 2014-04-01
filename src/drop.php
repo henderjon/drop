@@ -1,10 +1,11 @@
 <?php
-/**
- * function to parse a variable number of args into a more descriptive format and
- * display it
- * @return
- */
+
 if( !function_exists("drop") ){
+	/**
+	 * function to parse a variable number of args into a more descriptive format and
+	 * display it
+	 * @return type
+	 */
 	function drop(){
 
 		$stream = fopen("php://memory", "rw");
