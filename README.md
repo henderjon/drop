@@ -1,6 +1,6 @@
 # drop
 
-drop is a simpel function to inspect one or more variables in a PHP script
+drop is a simple function to inspect one or more variables in a PHP script
 and halt execution of that script. When debugging, I've found it helpful to
 simply kill a script and expose the actual type/contents or a var.
 
