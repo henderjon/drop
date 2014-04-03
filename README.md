@@ -15,6 +15,14 @@ using [Composer](http://getcomposer.org/).
 
 drop is also included in [Chevron](https://github.com/henderjon/chevron).
 
+# Authors
+
+- Jon Henderson
+	- [Github](https://github.com/henderjon)
+- Jesse Donat
+	- [Github](https://github.com/donatj)
+	- [Homepage](http://donatstudios.com)
+
 # License
 
 See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Clause) license.
