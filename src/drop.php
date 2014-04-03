@@ -12,26 +12,26 @@ if( !function_exists("drop") ){
 
 		foreach(func_get_args() as $key => $arg){
 
-			$stream .= "\n\n");
-			$stream .= "/// Arg No {$key}\n");
-			$stream .= str_repeat("/", 72) . "\n\n");
+			$stream .= "\n\n";
+			$stream .= "/// Arg No {$key}\n";
+			$stream .= str_repeat("/", 72) . "\n\n";
 
 			switch(true){
 				case is_null($arg) :
-					$stream .= print_r("(null)null", true));
+					$stream .= print_r("(null)null", true);
 				break;
 				case false === $arg :
-					$stream .= print_r("(bool)false", true));
+					$stream .= print_r("(bool)false", true);
 				break;
 				case true === $arg :
-					$stream .= print_r("(bool)true", true));
+					$stream .= print_r("(bool)true", true);
 				break;
 				default:
-					$stream .= print_r($arg, true));
+					$stream .= print_r($arg, true);
 				break;
 			}
 
-			$stream .= "\n\n");
+			$stream .= "\n\n";
 		}
 
 		if(0 === stripos(php_sapi_name(), "cli")){
