@@ -12,7 +12,7 @@ In your script simply call drop($var[, $var[, ...]]);
 
 Install the [Packagist archive](https://packagist.org/packages/henderjon/drop)
 using [Composer](http://getcomposer.org/). I will *generally* respect
-[Semantic Versioning](http://semver.org/). More about how Composer
+[Semantic Versioning](http://semver.org/). Learn about how Composer
 does [versions](https://getcomposer.org/doc/01-basic-usage.md#package-versions).
 
 *Note the absense of v1.0*
@@ -24,12 +24,6 @@ does [versions](https://getcomposer.org/doc/01-basic-usage.md#package-versions).
 	}
 }
 ```
-
-```require: "henderjon/drop": "v0.1.*"```
-
-# Versions
-
-I will *generally* respect [Semantic Versioning](http://semver.org/).
 
 # Authors
 
