@@ -11,7 +11,19 @@ In your script simply call drop($var[, $var[, ...]]);
 # Installation
 
 Install the [Packagist archive](https://packagist.org/packages/henderjon/drop)
-using [Composer](http://getcomposer.org/).
+using [Composer](http://getcomposer.org/). I will *generally* respect
+[Semantic Versioning](http://semver.org/). More about how Composer
+does [versions](https://getcomposer.org/doc/01-basic-usage.md#package-versions).
+
+*Note the absense of v1.0*
+
+```
+{
+	"require" : {
+		"henderjon/drop": "0.1.*"
+	}
+}
+```
 
 ```require: "henderjon/drop": "v0.1.*"```
 
