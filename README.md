@@ -25,12 +25,6 @@ does [versions](https://getcomposer.org/doc/01-basic-usage.md#package-versions).
 }
 ```
 
-```require: "henderjon/drop": "v0.1.*"```
-
-# Versions
-
-I will *generally* respect [Semantic Versioning](http://semver.org/).
-
 # Authors
 
 - Jon Henderson
