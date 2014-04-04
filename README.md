@@ -13,6 +13,12 @@ In your script simply call drop($var[, $var[, ...]]);
 Install the [Packagist archive](https://packagist.org/packages/henderjon/drop)
 using [Composer](http://getcomposer.org/).
 
+```require: "henderjon/drop": "v0.1.*"```
+
+# Versions
+
+I will *generally* respect [Semantic Versioning](http://semver.org/).
+
 # Authors
 
 - Jon Henderson
