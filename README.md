@@ -13,8 +13,6 @@ In your script simply call drop($var[, $var[, ...]]);
 Install the [Packagist archive](https://packagist.org/packages/henderjon/drop)
 using [Composer](http://getcomposer.org/).
 
-drop is also included in [Chevron](https://github.com/henderjon/chevron).
-
 # Authors
 
 - Jon Henderson
