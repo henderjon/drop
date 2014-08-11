@@ -20,7 +20,7 @@ See LICENSE.md for the [BSD-3-Clause](http://opensource.org/licenses/BSD-3-Claus
 
   - The [Packagist archive](https://packagist.org/packages/henderjon/drop)
   - Reading on [Semantic Versioning](http://semver.org/)
-  - Reading on[Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
+  - Reading on [Composer Versioning](https://getcomposer.org/doc/01-basic-usage.md#package-versions)
 
 
 
