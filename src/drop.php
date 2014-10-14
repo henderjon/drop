@@ -39,5 +39,7 @@ function drop(){
 	}else{
 		echo "<pre>{$stream}</pre>";
 	}
-	exit;
+
+	exit(1);
+
 }
