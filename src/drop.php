@@ -15,22 +15,7 @@ function drop(){
 		$stream .= "\n\n";
 		$stream .= "/// Arg No {$key}\n";
 		$stream .= str_repeat("/", 72) . "\n\n";
-
-		switch(true){
-			case is_null($arg) :
-				$stream .= print_r("(null)null", true);
-			break;
-			case false === $arg :
-				$stream .= print_r("(bool)false", true);
-			break;
-			case true === $arg :
-				$stream .= print_r("(bool)true", true);
-			break;
-			default:
-				$stream .= print_r($arg, true);
-			break;
-		}
-
+		$stream .= var_export($arg, true);
 		$stream .= "\n\n";
 	}
 

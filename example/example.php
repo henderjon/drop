@@ -17,4 +17,4 @@ $array = array(
 	),
 );
 
-drop($array);
+drop($array, true, false, null, "string", 123);
