@@ -8,21 +8,20 @@
 
 function drop(){
 
-	$stream = "";
-
-	foreach(func_get_args() as $key => $arg){
-
-		$stream .= "\n\n";
-		$stream .= "/// Arg No {$key}\n";
-		$stream .= str_repeat("/", 72) . "\n\n";
-		$stream .= var_export($arg, true);
-		$stream .= "\n\n";
+	ob_start();
+	foreach(func_get_args() as $key => $value){
+		echo "\n\n";
+		echo "/// Arg No {$key}\n";
+		echo str_repeat("/", 72) . "\n\n";
+		var_dump($value);
+		echo "\n";
 	}
+	$output = ob_get_clean();
 
 	if(0 === stripos(php_sapi_name(), "cli")){
-		fwrite(STDOUT, $stream);
+		echo $output;
 	}else{
-		echo "<pre>{$stream}</pre>";
+		echo "<pre>{$output}</pre>";
 	}
 
 	exit(1);
