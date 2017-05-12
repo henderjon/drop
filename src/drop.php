@@ -19,7 +19,7 @@ function drop(){
 	$output = ob_get_clean();
 
 	if(0 === stripos(php_sapi_name(), "cli")){
-		echo $output;
+		echo $output, PHP_EOL;
 	}else{
 		echo "<pre>{$output}</pre>", PHP_EOL;
 	}
@@ -48,7 +48,7 @@ function dropv(){
 	$output = ob_get_clean();
 
 	if(0 === stripos(php_sapi_name(), "cli")){
-		echo $output;
+		echo $output, PHP_EOL;
 	}else{
 		echo "<pre>{$output}</pre>", PHP_EOL;
 	}
