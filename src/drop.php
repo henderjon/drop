@@ -10,18 +10,18 @@ function drop(){
 
 	ob_start();
 	foreach(func_get_args() as $key => $value){
-		echo "\n\n";
-		echo "/// Arg No {$key}\n";
-		echo str_repeat("/", 72) . "\n\n";
+		echo PHP_EOL, PHP_EOL;
+		echo "/// Arg No {$key}", PHP_EOL;
+		echo str_repeat("/", 72), PHP_EOL, PHP_EOL;
 		var_dump($value);
-		echo "\n";
+		echo PHP_EOL;
 	}
 	$output = ob_get_clean();
 
 	if(0 === stripos(php_sapi_name(), "cli")){
 		echo $output;
 	}else{
-		echo "<pre>{$output}</pre>";
+		echo "<pre>{$output}</pre>", PHP_EOL;
 	}
 
 	exit(1);
@@ -39,18 +39,18 @@ function dropv(){
 
 	ob_start();
 	foreach(func_get_args() as $key => $value){
-		echo "\n\n";
-		echo "/// Arg No {$key}\n";
-		echo str_repeat("/", 72) . "\n\n";
+		echo PHP_EOL, PHP_EOL;
+		echo "/// Arg No {$key}", PHP_EOL;
+		echo str_repeat("/", 72), PHP_EOL, PHP_EOL;
 		print_r($value);
-		echo "\n";
+		echo PHP_EOL;
 	}
 	$output = ob_get_clean();
 
 	if(0 === stripos(php_sapi_name(), "cli")){
 		echo $output;
 	}else{
-		echo "<pre>{$output}</pre>";
+		echo "<pre>{$output}</pre>", PHP_EOL;
 	}
 
 	exit(1);
